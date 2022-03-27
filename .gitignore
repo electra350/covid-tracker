@@ -26,3 +26,13 @@ hs_err_pid*
 
 **/.idea
 **/.git*
+
+# Ignore emacs tilde backup and auto-save files
+*~
+.#*
+\#*
+*.iml
+*/lib/*
+
+# Ignore OSX .DS_Store files
+.DS_Store
